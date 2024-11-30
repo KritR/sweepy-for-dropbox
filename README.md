@@ -3,7 +3,7 @@
 ### 🚀 Effortlessly Clean Up Your Photo Library  
 **Sweepy for Dropbox** is your personal photo-cleaning assistant! It scans your iPhone's photo library, identifies images already backed up to Dropbox, and helps you delete duplicates to free up precious space.  
 
-![app screenshot](screenshots/en/English [en] | iPhone - 6.9" Display - 1.png)
+![app screenshot](screenshots/en/English \[en\] | iPhone - 6.9" Display - 1.png)
 
 ---
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1FF0A12C9A8E1D0029C26F /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1FF0A02C9A8E1D0029C26F /* FileType.swift */; };
 		EB1FF530291368D500D88AAC /* cloudsweeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1FF52F291368D500D88AAC /* cloudsweeperApp.swift */; };
 		EB1FF532291368D500D88AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1FF531291368D500D88AAC /* ContentView.swift */; };
 		EB1FF534291368D800D88AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1FF533291368D800D88AAC /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		EB1FF541291368D800D88AAC /* cloudsweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1FF540291368D800D88AAC /* cloudsweeperTests.swift */; };
 		EB1FF54B291368D900D88AAC /* cloudsweeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1FF54A291368D900D88AAC /* cloudsweeperUITests.swift */; };
 		EB1FF54D291368D900D88AAC /* cloudsweeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1FF54C291368D900D88AAC /* cloudsweeperUITestsLaunchTests.swift */; };
+		EB1FF55B29136D2800D88AAC /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = EB1FF55A29136D2800D88AAC /* SwiftyDropbox */; };
+		EB1FF560291B50C200D88AAC /* MediaCore in Frameworks */ = {isa = PBXBuildFile; productRef = EB1FF55F291B50C200D88AAC /* MediaCore */; };
+		EB2336DF2C363B5700756E16 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2336DE2C363B5700756E16 /* Button.swift */; };
+		EB80E0AC291C8AB800C87B91 /* DropboxHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80E0AB291C8AB800C87B91 /* DropboxHasher.swift */; };
+		EB8EDAC12935D976009343FE /* DropboxHashStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8EDAC02935D976009343FE /* DropboxHashStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB1FF0A02C9A8E1D0029C26F /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
 		EB1FF52C291368D500D88AAC /* cloudsweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudsweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1FF52F291368D500D88AAC /* cloudsweeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudsweeperApp.swift; sourceTree = "<group>"; };
 		EB1FF531291368D500D88AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		EB1FF546291368D900D88AAC /* cloudsweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudsweeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1FF54A291368D900D88AAC /* cloudsweeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudsweeperUITests.swift; sourceTree = "<group>"; };
 		EB1FF54C291368D900D88AAC /* cloudsweeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudsweeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB1FF55C29136EAE00D88AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EB1FF55D291398D000D88AAC /* cloudsweeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cloudsweeper.entitlements; sourceTree = "<group>"; };
+		EB2336DE2C363B5700756E16 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		EB80E0AB291C8AB800C87B91 /* DropboxHasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxHasher.swift; sourceTree = "<group>"; };
+		EB8EDAC02935D976009343FE /* DropboxHashStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxHashStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1FF560291B50C200D88AAC /* MediaCore in Frameworks */,
+				EB1FF55B29136D2800D88AAC /* SwiftyDropbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +108,16 @@
 		EB1FF52E291368D500D88AAC /* cloudsweeper */ = {
 			isa = PBXGroup;
 			children = (
+				EB1FF55D291398D000D88AAC /* cloudsweeper.entitlements */,
+				EB1FF55C29136EAE00D88AAC /* Info.plist */,
 				EB1FF52F291368D500D88AAC /* cloudsweeperApp.swift */,
 				EB1FF531291368D500D88AAC /* ContentView.swift */,
+				EB8EDAC02935D976009343FE /* DropboxHashStore.swift */,
 				EB1FF533291368D800D88AAC /* Assets.xcassets */,
 				EB1FF535291368D800D88AAC /* Preview Content */,
+				EB80E0AB291C8AB800C87B91 /* DropboxHasher.swift */,
+				EB2336DE2C363B5700756E16 /* Button.swift */,
+				EB1FF0A02C9A8E1D0029C26F /* FileType.swift */,
 			);
 			path = cloudsweeper;
 			sourceTree = "<group>";
@@ -143,6 +163,10 @@
 			dependencies = (
 			);
 			name = cloudsweeper;
+			packageProductDependencies = (
+				EB1FF55A29136D2800D88AAC /* SwiftyDropbox */,
+				EB1FF55F291B50C200D88AAC /* MediaCore */,
+			);
 			productName = cloudsweeper;
 			productReference = EB1FF52C291368D500D88AAC /* cloudsweeper.app */;
 			productType = "com.apple.product-type.application";
@@ -191,7 +215,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					EB1FF52B291368D500D88AAC = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -215,6 +239,10 @@
 				Base,
 			);
 			mainGroup = EB1FF523291368D500D88AAC;
+			packageReferences = (
+				EB1FF55929136D2800D88AAC /* XCRemoteSwiftPackageReference "SwiftyDropbox" */,
+				EB1FF55E291B50C100D88AAC /* XCRemoteSwiftPackageReference "Media" */,
+			);
 			productRefGroup = EB1FF52D291368D500D88AAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2336DF2C363B5700756E16 /* Button.swift in Sources */,
+				EB1FF0A12C9A8E1D0029C26F /* FileType.swift in Sources */,
+				EB8EDAC12935D976009343FE /* DropboxHashStore.swift in Sources */,
+				EB80E0AC291C8AB800C87B91 /* DropboxHasher.swift in Sources */,
 				EB1FF532291368D500D88AAC /* ContentView.swift in Sources */,
 				EB1FF530291368D500D88AAC /* cloudsweeperApp.swift in Sources */,
 			);
@@ -299,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -331,6 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -391,6 +426,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -399,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,23 +450,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cloudsweeper/cloudsweeper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cloudsweeper/Preview Content\"";
 				DEVELOPMENT_TEAM = A2QKBT4SNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloudsweeper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sweepy for Dropbox";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires access to find and delete duplicate photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.krithikrao.cloudsweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krithikrao.sweepy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,23 +486,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cloudsweeper/cloudsweeper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cloudsweeper/Preview Content\"";
 				DEVELOPMENT_TEAM = A2QKBT4SNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloudsweeper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sweepy for Dropbox";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires access to find and delete duplicate photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.krithikrao.cloudsweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krithikrao.sweepy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -583,6 +633,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB1FF55929136D2800D88AAC /* XCRemoteSwiftPackageReference "SwiftyDropbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dropbox/SwiftyDropbox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		EB1FF55E291B50C100D88AAC /* XCRemoteSwiftPackageReference "Media" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/Media.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB1FF55A29136D2800D88AAC /* SwiftyDropbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB1FF55929136D2800D88AAC /* XCRemoteSwiftPackageReference "SwiftyDropbox" */;
+			productName = SwiftyDropbox;
+		};
+		EB1FF55F291B50C200D88AAC /* MediaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB1FF55E291B50C100D88AAC /* XCRemoteSwiftPackageReference "Media" */;
+			productName = MediaCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB1FF524291368D500D88AAC /* Project object */;
 }

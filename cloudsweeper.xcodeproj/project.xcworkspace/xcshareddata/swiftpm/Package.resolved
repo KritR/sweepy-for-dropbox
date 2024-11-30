@@ -1,0 +1,24 @@
+{
+  "originHash" : "aa69ffbae546e9063a9fc360db5d4c94270471367a1c231f9861012eda61e68d",
+  "pins" : [
+    {
+      "identity" : "media",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/crelies/Media.git",
+      "state" : {
+        "revision" : "84acbe8e4f5c62e304582d5a2d32edfaa509f839",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "swiftydropbox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dropbox/SwiftyDropbox.git",
+      "state" : {
+        "revision" : "5cbf001757b5cf1d58323a7034f1516e58714cb0",
+        "version" : "10.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
